@@ -1,2 +1,2 @@
-# Laborat-rio_Programa-o_Exs_Aula5_1SIR_2026
+# Laboratório Programação Exs Aula5 1SIR 2026
 Arquivos e códigos da aula 5 do Laboratório de Programação Java
