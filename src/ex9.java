@@ -7,9 +7,10 @@ public class ex9 {
         System.out.println("Digite um numero de 3 digitos: ");
         num = sc.nextInt();
         unidade = num % 10;
-        dezena = (num /10) % 10;
-        centena = (num / 100) % 10;
-        System.out.println("O número lido na ordem inversa é: " + unidade + dezena + centena);
+        dezena = num /10 % 10;
+        centena = num / 100;
+        num = unidade * 100 + dezena * 10 + centena;
+        System.out.println("O número lido na ordem inversa é: " + num);
 
     }
 }
