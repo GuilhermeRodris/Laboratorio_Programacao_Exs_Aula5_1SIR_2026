@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.Math;
 
 public class ex10 {
     public static void main(String[] args) {
@@ -15,7 +14,5 @@ public class ex10 {
         convertido = primeiro * Math.pow(2,3) + segundo * Math.pow(2,2) + terceiro * Math.pow(2,1) + quarto * Math.pow(2,0);
 
         System.out.printf("O valor convertido do binario é: %.2f", convertido);
-
-
     }
 }
