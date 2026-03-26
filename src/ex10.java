@@ -4,8 +4,7 @@ import java.lang.Math;
 public class ex10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double convertido, quarto, terceiro, segundo, primeiro;
-        int bi;
+        double convertido, quarto, terceiro, segundo, primeiro, bi;
         System.out.println("Digite a sequencia de quatro digitos formado por 0s e 1s: ");
         bi = sc.nextInt();
         quarto = bi % 10;
@@ -15,7 +14,7 @@ public class ex10 {
 
         convertido = primeiro * Math.pow(2,3) + segundo * Math.pow(2,2) + terceiro * Math.pow(2,1) + quarto * Math.pow(2,0);
 
-        System.out.println("O valor convertido do binario é: " + convertido);
+        System.out.printf("O valor convertido do binario é: %.2f", convertido);
 
 
     }
