@@ -4,7 +4,7 @@ public class ex9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num, dezena, centena, unidade;
-        System.out.println("Digite um numero de 3 digitos: ");
+        System.out.print("Digite um número de 3 dígitos: ");
         num = sc.nextInt();
         unidade = num % 10;
         dezena = num /10 % 10;

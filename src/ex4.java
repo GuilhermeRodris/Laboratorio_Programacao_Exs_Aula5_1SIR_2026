@@ -6,17 +6,16 @@ public class ex4 {
         double qui, valorq, precores, sm = 1.621;
 
         // a)
-        System.out.println("Digite a quantidade de quilowatts consumida:");
+        System.out.print("Digite a quantidade de quilowatts consumida: ");
         qui = sc.nextDouble();
         valorq = sm/7;
-        System.out.println("O valor em reais de cada quilowatt é " + valorq);
+        System.out.printf("O valor de cada quilowatt é: R$ %.2f \n", valorq);
 
         //b)
         precores = valorq * qui;
-        System.out.println("O valor que a residencia vai pagar é de: " + precores);
-
+        System.out.printf("O valor que a residência vai pagar é de: R$ %.2f \n", precores);
 
         precores = precores * 0.9;
-        System.out.println("O valor com desconto é: " + precores);
+        System.out.printf("O valor com desconto é: R$ %.2f", precores);
     }
 }
